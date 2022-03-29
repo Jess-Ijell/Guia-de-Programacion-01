@@ -20,7 +20,13 @@ public class Ejercicio9 : MonoBehaviour
     void Start()
     {
         int sumaaportes = aporte1 + aporte2 + aporte3;
-        int porcentaje1 = aporte1*100/sumaaportes;
+        int porcentaje1 = aporte1 * 100 / sumaaportes;
+        int porcentaje2 = aporte2 * 100 / sumaaportes;
+        int porcentaje3 = aporte3 * 100 / sumaaportes;
+
+        Debug.Log("PERSONA 1: capital aportado: " + aporte1 + ", porcentaje del acpital: " + porcentaje1 + "%, monto total aportado: $" + sumaaportes);
+        Debug.Log("PERSONA 2: capital aportado: " + aporte2 + ", porcentaje del acpital: " + porcentaje2 + "%, monto total aportado: $" + sumaaportes);
+        Debug.Log("PERSONA 3: capital aportado: " + aporte3 + ", porcentaje del acpital: " + porcentaje3 + "%, monto total aportado: $" + sumaaportes);
     }
 
     // Update is called once per frame
