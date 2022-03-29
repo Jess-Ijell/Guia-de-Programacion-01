@@ -659,6 +659,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 13f8954d7f3428244a2e9eb7bb2e57a8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dado1: 0
+  dado2: 0
+  dado3: 0
 --- !u!4 &1330822956
 Transform:
   m_ObjectHideFlags: 0
