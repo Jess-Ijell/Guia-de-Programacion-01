@@ -10,7 +10,7 @@ using UnityEngine;
 
 public class Ejercicio8 : MonoBehaviour
 {
-    int dia = 1;
+    public int dia;
 
     // Start is called before the first frame update
     void Start()

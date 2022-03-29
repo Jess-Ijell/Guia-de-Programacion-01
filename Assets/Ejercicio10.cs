@@ -16,9 +16,9 @@ using UnityEngine;
 
 public class Ejercicio10 : MonoBehaviour
 {
-    int hora_apertura = 10;
-    int hora_cierre = 18;
-    int hora_actual = 13;
+    public int hora_apertura;
+    public int hora_cierre;
+    public int hora_actual;
     bool estaAbierto = false;
 
     // Start is called before the first frame update

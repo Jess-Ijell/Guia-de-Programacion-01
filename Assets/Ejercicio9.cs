@@ -12,9 +12,9 @@ using UnityEngine;
 
 public class Ejercicio9 : MonoBehaviour
 {
-    int aporte1 = 1;
-    int aporte2 = 2;
-    int aporte3 = 3;
+    public int aporte1;
+    public int aporte2;
+    public int aporte3;
 
     // Start is called before the first frame update
     void Start()
