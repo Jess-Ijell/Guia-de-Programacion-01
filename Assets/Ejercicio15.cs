@@ -25,24 +25,32 @@ public class Ejercicio15 : MonoBehaviour
 
         if (numero < 10 && numero > -10)
         {
-            estaEnA = true;
-
             if (numero % 2 == 0)
             {
                 estaEnAmbos = true;
+                Debug.Log("El número " + numero + " pertenece a ambos conjuntos.");
+            }
+
+            else
+            {
+                estaEnA = true;
+                Debug.Log("El número " + numero + " solo pertenece al primero conjunto (es de un solo dígito).");
             }
         }
 
         else
         {
-            if (numero % 2 == 0)
+            if (numero % 2 != 0)
             {
                 estaEnB = true;
+
+                Debug.Log("El número " + numero + " solo pertenece al segundo conjunto (es impar).");
             }
 
             else
             {
                 noEstaEnNinguno = true;
+                Debug.Log("El número " + numero + " no pertenece a ningún conjunto.");
             }
         }
     }
