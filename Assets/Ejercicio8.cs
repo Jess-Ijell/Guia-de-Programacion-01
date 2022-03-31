@@ -15,44 +15,39 @@ public class Ejercicio8 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        if (dia == 1)
+        switch (dia)
         {
-            Debug.Log("Domingo");
-        }
+            case 1:
+                Debug.Log("Domingo");
+                break;
 
-        else if (dia == 2)
-        {
-            Debug.Log("Lunes");
-        }
+            case 2:
+                Debug.Log("Lunes");
+                break;
 
-        else if (dia == 3)
-        {
-            Debug.Log("Martes");
-        }
+            case 3:
+                Debug.Log("Martes");
+                break;
 
-        else if (dia == 4)
-        {
-            Debug.Log("Miércoles");
-        }
+            case 4:
+                Debug.Log("Miércoles");
+                break;
 
-        else if (dia == 5)
-        {
-            Debug.Log("Jueves");
-        }
+            case 5:
+                Debug.Log("Jueves");
+                break;
 
-        else if (dia == 6)
-        {
-            Debug.Log("Viernes");
-        }
+            case 6:
+                Debug.Log("Viernes");
+                break;
 
-        else if (dia == 7)
-        {
-            Debug.Log("Sábado");
-        }
+            case 7:
+                Debug.Log("Sábado");
+                break;
 
-        else
-        {
-            Debug.Log("El día ingresado no es válido.");
+            default:
+                Debug.Log("El día ingresado no es válido");
+                break;
         }
     }
 
