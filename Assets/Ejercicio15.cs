@@ -28,13 +28,13 @@ public class Ejercicio15 : MonoBehaviour
             if (numero % 2 == 0)
             {
                 estaEnAmbos = true;
-                Debug.Log("El número " + numero + " pertenece a ambos conjuntos.");
+                Debug.Log("El número está en ambos = " +estaEnAmbos);
             }
 
             else
             {
                 estaEnA = true;
-                Debug.Log("El número " + numero + " solo pertenece al primero conjunto (es de un solo dígito).");
+                Debug.Log("El número es de un solo dígito = " +estaEnA);
             }
         }
 
@@ -43,14 +43,13 @@ public class Ejercicio15 : MonoBehaviour
             if (numero % 2 != 0)
             {
                 estaEnB = true;
-
-                Debug.Log("El número " + numero + " solo pertenece al segundo conjunto (es impar).");
+                Debug.Log("El número es impar = " +estaEnB);
             }
 
             else
             {
                 noEstaEnNinguno = true;
-                Debug.Log("El número " + numero + " no pertenece a ningún conjunto.");
+                Debug.Log("El número no pertenece a ningún conjunto = " +noEstaEnNinguno);
             }
         }
     }

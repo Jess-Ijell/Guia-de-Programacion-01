@@ -26,7 +26,7 @@ public class Ejercicio10 : MonoBehaviour
     {
         if (hora_actual > 24 || hora_actual < 0)
         {
-            Debug.Log("Ha ingresad una hora incurrecta");
+            Debug.Log("Ha ingresado una hora incurrecta");
         }
 
         else
@@ -36,15 +36,7 @@ public class Ejercicio10 : MonoBehaviour
                 estaAbierto = true;               
             }
 
-            if (estaAbierto == true)
-            {
-                Debug.Log("El estacionamiento se encuentra abierto.");
-            }
-
-            else
-            {
-                Debug.Log("El estacionamiento se encuentra cerrado.");
-            }
+            Debug.Log("El estacionamiento se encuentra abierto = " + estaAbierto);
         }
         
     }
